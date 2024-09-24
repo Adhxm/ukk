@@ -1,0 +1,51 @@
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 18rem;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.card-content {
+    margin-top: 10px;
+}
+.caption {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.comment-form {
+    margin-top: 15px;
+}
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    resize: vertical;
+}
+.comment-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+.card-img-top {
+    width: 100%;
+    height: auto; /* Ensure aspect ratio is maintained */
+}
+.container{
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
